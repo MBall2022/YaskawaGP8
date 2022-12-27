@@ -155,7 +155,7 @@ scene.add( light3 );
 var loader = new THREE.TextureLoader();
 loader.setCrossOrigin("anonymous");
 const texture = loader.load(
-  '/assets/floor3.jpeg');
+  'https://github.com/MBall2022/YaskawaGP8/blob/5575a30cd192b92408106035ddb0167a27ec3c5a/assets/floor3.jpeg');
 
   var Fmaterial = new THREE.MeshPhongMaterial({ color:0xFFFFFF, map: texture });
   texture.wrapS = THREE.RepeatWrapping;
