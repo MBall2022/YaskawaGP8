@@ -155,7 +155,7 @@ scene.add( light3 );
 var loader = new THREE.TextureLoader();
 loader.setCrossOrigin("anonymous");
 const texture = loader.load(
-  '/pics/floor3.jpeg');
+  '/assets/floor3.jpeg');
 
   var Fmaterial = new THREE.MeshPhongMaterial({ color:0xFFFFFF, map: texture });
   texture.wrapS = THREE.RepeatWrapping;
